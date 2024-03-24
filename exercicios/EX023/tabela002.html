@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: lightgray;
+            padding: 5px;
+        }
+        table{
+            width: 200px;
+            position: relative;
+        }
+        td, th{
+            border: 3px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: gray;
+            color: black;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+       tfoot{
+        background-color: gray;
+       }
+       td.num{
+        text-align: right;
+       }
+       tbody > tr:nth-child(2n){
+        background-color: lightgray;
+       }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <caption>População dos estados brasileiros</caption>
+        <thead>
+            <th scope="col" style="width: 60px;">posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524	</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="num">11 444 380	</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965	</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>ceará</td>
+                <td>8 794 957</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Santa Catarina</td>
+                <td>7 658 768</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>paraná</td>
+                <td>7 756 648</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Rondônia</td>
+                <td>6 567 546</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Tocantis</td>
+                <td>8 756 485</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Mt</td>
+                <td>7 6759 643</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>PR</td>
+                <td>9 657 734</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>88.822.476</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
