@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 3px solid black;
+            padding: 5px;
+        }
+        tr.fundoverde{
+            background-color: green;
+        }
+        col#cnome{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercico de tabela</h1>
+    <table>
+        <colgroup>
+            <col id="cnome">
+            <col id="cidade">
+            <col id="csexo">
+            <col id="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>35</td>
+            <td>Feminino</td>
+            <td>Advogada</td>
+        </tr>
+        <tr class="fundoverde">
+            <td>Ana Maria</td>
+            <td>35</td>
+            <td>Feminino</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>35</td>
+            <td>Feminino</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>35</td>
+            <td>Feminino</td>
+            <td>Advogada</td>
+        </tr>
+    </table>
+</body>
+</html>
