@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
 body{
-    background-image: url(desafio 009/pacote-d013/imagens/fundo-madeira.jpg);
+    background-image: url(desafio009/style/pacote-d013/pacote-d013/imagens/frame-iphone.png), url(desafio009/style/pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: auto;
+    background-position: center top, right center;
 }
+
