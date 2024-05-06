@@ -23,10 +23,20 @@ h1{
 
 li{
     font-size: 1.1em;
-    display: inline-block;
-    margin: 9px;
+    display: block;
     color: white;
     background-color: rgb(69, 69, 69);
+    border: 0.5px solid rgba(255, 255, 255, 0.775);
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: gray;
 }
 
 main{
@@ -42,4 +52,5 @@ h2{
 
 p{
     padding: 10px;
+    text-indent: 20px;
 }
