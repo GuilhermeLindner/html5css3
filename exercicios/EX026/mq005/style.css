@@ -18,7 +18,22 @@ header{
 
 h1{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+span#menu{
+    background-color: rgb(43, 43, 43);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#menu:hover{
+    background-color: white;
+    color: black;
 }
 
 li{
@@ -34,10 +49,9 @@ li{
 a{
     text-decoration: none;
 }
-
-a:hover{
-    background-color: gray;
-}
+ menu{
+    display: none;
+ }
 
 main{
     background-color: white;
